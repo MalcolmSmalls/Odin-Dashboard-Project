@@ -25,7 +25,49 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.container{
+  display:grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr
+}
 
+.sidebar{
+  background-color:#1992d4;
+  color:white;
+  font-size:.9em;
+  grid-row:1 / span 2;
+  grid-column:1 / span 2;
+}
+
+.sidebar a{
+  font-weight:bold;
+  color:white;
+  text-decoration:none;
+}
+
+.sidebar li{
+  list-style:none;
+  padding-bottom:15px;
+}
+
+.top i, .bottom_dash i{
+  font-size:.8em;
+  margin-right:15px;
+}
+
+.bottom_dash {
+  padding-top:20px;
+}
+
+.sidebar h2{
+  display:inline-block;
+  align-items:center;
+}
+
+.fa-brands{
+  padding-left:30px;
+  padding-right:5px;
+  font-size:2em;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
