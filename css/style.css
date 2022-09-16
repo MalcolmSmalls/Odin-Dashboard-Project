@@ -156,7 +156,7 @@ header img{
   grid-column:4/ 5;
   grid-row:1 / 1;
   display:grid;
-  grid-template: 1fr / .1fr .15fr .3fr;
+  grid-template: 1fr / .1fr .15fr .25fr;
   place-items:center;
   justify-content:center;
   height:10%;
