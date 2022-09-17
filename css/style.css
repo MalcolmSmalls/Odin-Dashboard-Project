@@ -336,10 +336,39 @@ header {
   padding-left:35px;
   margin-bottom: 5px;
 }
+
 .trending{
-  margin-top:100px;
+  margin-top:110px;
   grid-column:3;
-  grid-row:3 / span 4;
+  grid-row:3 / span 7;
+}
+
+.trending_container{
+  margin-top:15px;
+  background-color:white;
+  width:85%;
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.trending1{
+  grid-row:1;
+  display:flex;
+}
+
+.trending2{
+  grid-row:2;
+  display:flex;
+}
+
+.trending3{
+  grid-row:3;
+  display:flex;
+}
+
+.trending4{
+  grid-row:4;
+  display:flex;
 }
 
 /* .site_maintenance_heading{
