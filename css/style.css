@@ -299,10 +299,21 @@ header {
   grid-column:2;
 }
 
-.right_side{
+.heading{
   grid-column:3;
-  grid-row:1 / span 2;
-  display:grid;
+  grid-row:1;
+  /* display:grid;
+  grid-template:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr */
+}
+
+.announcements{
+  grid-column:3;
+  grid-row:2 / span 3;
+}
+
+.trending{
+  grid-column:3;
+  grid-row:3;
 }
 
 .center h3{
