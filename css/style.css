@@ -349,26 +349,46 @@ header {
   width:85%;
   display:grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
+  border-radius:10px;
+  box-shadow: 2px 5px 5px rgba(0,0,0,.15);
+  height:400px;
+  padding-left:35px;
+  padding-top:21px;
+  padding-bottom:10px;
+}
+
+.trending p{
+  margin-top:2px;
+  color:#636363;
+}
+
+.items{
+  padding-left:20px;
+  padding-top:5px;
 }
 
 .trending1{
   grid-row:1;
   display:flex;
+  align-self:center;
 }
 
 .trending2{
   grid-row:2;
   display:flex;
+  align-self:center;
 }
 
 .trending3{
   grid-row:3;
   display:flex;
+  align-self:center;
 }
 
 .trending4{
   grid-row:4;
   display:flex;
+  align-self:center;
 }
 
 /* .site_maintenance_heading{
